@@ -12,7 +12,8 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+/*@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@700&family=IBM+Plex+Sans+KR:wght@300;400;600;700&display=swap');
 :root {
   --blue: #1e549f;
   --indigo: #695aa6;
@@ -40,7 +41,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Open Sans", sans-serif;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  /*--font-family-sans-serif: "Open Sans", sans-serif;*/
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -63,7 +65,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -6555,7 +6558,8 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6668,7 +6672,8 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11074,12 +11079,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-  font-family: 'Baloo Paaji', cursive;
+  /*font-family: 'Baloo Paaji', cursive;*/
+  font-family: 'Baloo Paaji 2', cursive;
   color: #695aa6;
 }
 
 .my-font {
-  font-family: 'Baloo Paaji', cursive;
+  /*font-family: 'Baloo Paaji', cursive;*/
+  font-family: 'Baloo Paaji 2', cursive;
 }
 
 p {
@@ -11626,7 +11633,8 @@ pre .code {
           align-items: center;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
-  font-family: 'Baloo Paaji', cursive;
+  /*font-family: 'Baloo Paaji', cursive;*/
+  font-family: 'Baloo Paaji 2', cursive;
 }
 
 @media (prefers-reduced-motion: reduce) {
