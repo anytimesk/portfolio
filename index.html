@@ -30,7 +30,7 @@
                     <a class="link" href="#career">Career</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
+                    <a class="link" href="#project">Project</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#contact">Contact</a>
@@ -95,16 +95,15 @@
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
                                 class="icon">
                             <h6 class="title">Language</h6>
-                            <p class="subtitle">
-                                <div>
+                            <p style="text-align: center">
+                                <div class="subtitle">
                                     <img src="assets/imgs/c.svg" style="height: 40px">&nbsp;
                                     <img src="assets/imgs/cplusplus.svg" style="height: 40px">&nbsp;
-                                    <img src="assets/imgs/java.svg" style="height: 40px"><br><br>
+                                    <img src="assets/imgs/csharp.svg" style="height: 40px"><br><br>
+                                    <img src="assets/imgs/java.svg" style="height: 40px">
                                     <img src="assets/imgs/javascript.svg" style="height: 40px">&nbsp;
                                     <img src="assets/imgs/python.svg" style="height: 40px">&nbsp;
-                                    <img src="assets/imgs/csharp.svg" style="height: 40px">
                                 </div>
-
                             </p>
                         </div>
                     </div>
@@ -233,11 +232,155 @@
     </section> <!-- end of testimonial section -->
 
     <!-- portfolio section -->
-    <section class="section" id="portfolio">
+    <section class="section" id="project">
         <div class="container text-center">
             <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
+            <h6 class="section-title mb-6">Project</h6>
             <!-- row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Image Carousel -->
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner" style="width: 100%">
+                            <div class="carousel-item active">
+                                    <div style="width: 50%;float: left;">
+                                        <p class="kh">감시정찰 센서네트워크(국방과학연구소 주관 USN 사업)</p>
+                                        <div style="text-align: left;">
+                                            <ul>
+                                                <li>센서노드 Device Driver 개발
+                                                    <ul>
+                                                        <li>Sensor(PIR, Magnetic, RTC, RF, AMP Device Driver</li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>8/16 Bit MCU에 Micom용 OS 포팅
+                                                    <ul>
+                                                        <li>Nano Q Plus(ETRI 개발)</li>
+                                                        <li>국방과학 연구소 Micom OS </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>센서노드 데이터 처리 Application 개발
+                                                    <ul>
+                                                        <li>Application Task 안정화</li>
+                                                        <li>Resource Management Algorithm 구현</li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>신호 수집 Test용 GUI 개발
+                                                    <ul>
+                                                        <li>MFC 기반의 센서 신호 수집 GUI 구현</li>
+                                                        <li>수집된 데이터 Graph Display GUI(Oscilation 형식) 구현</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div style="width: 50%;height:500px;float:right">
+                                        <img src="assets/imgs/folio-1.jpg" alt="감시정찰 센서네트워크"  height="500">
+                                    </div>
+                            </div>
+
+                            <div class="carousel-item" >
+                                    <div style="width: 50%;float: left;">
+                                        <p class="kh">전자가격 표시기(ESL) 서버 개발</p>
+                                        <div style="text-align: left;">
+                                            <ul>
+                                                <li>C++ STD 기반 ESL 서버 개발(7 Segment Type 지원)
+                                                    <ul>
+                                                        <li>Socket 기반 Gateway 연동부 개발</li>
+                                                        <li>상품정보 처리 API 개발</li>
+                                                        <li>MS-SQL Query 작성</li>
+                                                        <li>MFC 기반 ESL 상품정보 처리 결과 모니터링 프로그램 개발</li>
+                                                        <li>독일 REWE社 납품 및 설치 지원</li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>Spring Framework 기반 ESL 서버 개발(Image Type 지원, 단일 매장형)
+                                                    <ul>
+                                                        <li>상품정보 처리 API 개발(Java Application)</li>
+                                                        <li>RESTFul 연동 JQuery를 사용 상품정보 처리 결과 모니터링 Front Page 개발</li>
+                                                        <li>Layout Designer 기능 개발</li>
+                                                        <li>UI Query 최적화</li>
+                                                        <li>고객사 납품 및 설치 지원(Metro, E-Mart, 농협 하나로마트)</li>
+                                                        <li>고객사 요구 기능 구현</li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>Spring Framework 기반 중앙형 ESL 서버 개발
+                                                    <ul>
+                                                        <li>단일 파일로 고객사 전지역 상품정보 처리 API 기능 개발</li>
+                                                        <li>Layout Designer 기능 개발</li>
+                                                        <li>UI Query 최적화</li>
+                                                        <li>북미 Beer Store 납품 및 설치 지원</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div style="width: 50%;height:500px;float:right">
+                                        <img src="assets/imgs/eslsystem.jpg" alt="ESL">
+                                        <p></p><p>이미지 출처 : Solu-M(https://solu-m.com/esl.php)</p>
+                                    </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div style="width: 50%;float: left;">
+                                    <p class="kh">물류자동화 ACS 서버 운영</p>
+                                    <div style="text-align: left;">
+                                        <ul>
+                                            <li>공장 물류운반 시나리오에 따른 ACS 기능 추가
+                                                <ul>
+                                                    <li>AGV 반송 처리 작업 내역 조회 페이지 추가</li>
+                                                    <li>AGV 한 Port에서 Charge/Load/Parking이 가능하도록 기능 수정</li>
+                                                    <li>Port별 물류 반송 갯수가 유동적이도록 기능 수정</li>
+                                                    <li>log4j2 이슈대응(lib version upgrade 1.x - 2.17.x)</li>
+                                                </ul>
+                                            </li>
+
+                                            <li>ACS - AGV간 Interface 작업
+                                                <ul>
+                                                    <li>ACS 운영사에 도입되는 AGV 회사별로 ACS 연동 작업 지원</li>
+                                                    <li>AGV 도입 현장에서 AGV 동선 제어 Map 생성</li>
+
+                                                </ul>
+                                            </li>
+
+                                            <li>ACS 운영
+                                                <ul>
+                                                    <li>고객사 이슈에 따라 ACS 관리 및 Server 이슈 모니터링</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div style="width: 50%;height:500px;float:right">
+                                    <img src="assets/imgs/folio-3.jpg" alt="ACS">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row -->
+            <!-- 기존 형식에서 Image Carousel 으로 변경
             <div class="row">
                 <div class="col-md-4">
                     <a href="#" class="portfolio-card">
@@ -275,7 +418,9 @@
                         </span>
                     </a>
                 </div>
-            </div><!-- end of row -->
+            </div>
+            -->
+            <!-- end of row -->
         </div><!-- end of container -->
     </section> <!-- end of portfolio section -->
 

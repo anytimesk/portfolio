@@ -11084,6 +11084,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #695aa6;
 }
 
+.kh {
+    font-weight: bold;
+    /*font-family: 'Baloo Paaji', cursive;*/
+    color: #695aa6;
+}
 .my-font {
   /*font-family: 'Baloo Paaji', cursive;*/
   font-family: 'Baloo Paaji 2', cursive;
