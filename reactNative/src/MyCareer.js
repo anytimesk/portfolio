@@ -51,7 +51,7 @@ export default function CustomizedTables() {
             <Table className={classes.table} aria-label="customized table">
                 <TableHead>
                     <TableRow>
-                        <StyledTableCell align="center">제직 기간</StyledTableCell>
+                        <StyledTableCell align="center">재직 기간</StyledTableCell>
                         <StyledTableCell align="center">회사명</StyledTableCell>
                         <StyledTableCell align="center">부서&nbsp;/&nbsp;직급</StyledTableCell>
                         <StyledTableCell align="center">담당 업무</StyledTableCell>
