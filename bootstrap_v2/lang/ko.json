@@ -2,5 +2,9 @@
     "Name": "윤성근",
     "Experience": "경력",
     "Education": "학력",
-    "portfolio": "Portfolio"
+    "Portfolio": "포트폴리오",
+    "References": "추천",
+    "Contact": "연락",
+    "About": "소개",
+    "Skills" : "보유 기술"
 }
