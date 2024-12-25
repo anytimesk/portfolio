@@ -28,7 +28,7 @@
     <header class="d-print-none">
       <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix">
-          <h1 class="site-title mb-0">Walter Patterson</h1>
+          <h1 class="site-title mb-0" data-key="Name">Sungkun Yoon</h1>
           <div class="site-nav"> 
             <nav role="navigation">
               <ul class="nav justify-content-center">
@@ -36,15 +36,23 @@
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
+                <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title" data-key="Experience">Experience</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
+                <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title" data-key="Education">Education</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a>
+                <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title" data-key="Portfolio">Portfolio</span></a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span></a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">
+                    <select style="border: none;color:#4F4F4F" id="lang">
+                      <option value="en">English</option>
+                      <option value="ko" selected>한국어</option>
+                    </select>
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -63,7 +71,7 @@
             <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="images/avatar.jpg" width="160" height="160"/></div>
             <div class="header-bio mt-3">
               <div data-aos="zoom-in" data-aos-delay="0">
-                <h2 class="h1">Walter Patterson</h2>
+                <h2 class="h1" data-key="Name">Sungkun Yoon</h2>
                 <p>Front-end Developer and Graphic Designer</p>
               </div>
               <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
@@ -186,7 +194,7 @@
   </div>
   <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
     <div class="work-experience-section">
-      <h2 class="h2 fw-light mb-4">Work Experience</h2>
+      <h2 class="h2 fw-light mb-4" data-Key="Experience">Experience</h2>
       <div class="timeline">
         <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
           <div class="timeline-head px-4 pt-3">
@@ -354,7 +362,7 @@
     <footer class="pt-4 pb-4 text-muted text-center d-print-none">
       <div class="container">
         <div class="my-3">
-          <div class="h4">Walter Patterson</div>
+          <div class="h4" data-key="Name">Sungkun Yoon</div>
           <div class="footer-nav">
             <nav role="navigation">
               <ul class="nav justify-content-center">
@@ -379,5 +387,27 @@
     <script src="scripts/mdb.min.js?ver=1.2.1"></script>
     <script src="scripts/aos.js?ver=1.2.1"></script>
     <script src="scripts/main.js?ver=1.2.1"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        updateLanguage($("#lang").val());
+      });
+
+      $("#lang").change(function(){
+        updateLanguage($(this).val());
+      })
+
+      function updateLanguage(lang){
+        var langFile = "/lang/" + lang + ".json";
+        $.getJSON(langFile, function(data) {
+          $(".bg-light [data-key]").each(function() {
+            const key = $(this).data("key");  // data-key 속성 값 가져오기
+            $(this).text(data[key]);  // 해당 key에 맞는 텍스트로 변경
+          });
+        }).fail(function() {
+          console.error("Failed to load language file.");
+        });
+      }
+    </script>
   </body>
 </html>
