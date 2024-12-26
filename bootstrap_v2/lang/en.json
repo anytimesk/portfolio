@@ -28,5 +28,13 @@
     "Work-Period-1": "October, 2007 - March, 2012",
     "Work-Descrption-1": "<h6 class=\"h6\">1. Surveillance and Reconnaissance WSN (Military Project)</h6><ul><li>Developed Sensor Node Device Driver(RTC, RF, AMP)</li><li>OS Porting for MCU</li><li>Sensor Data Processing &amp; Sampling</li><li>Developed Stabilization of Application Task in OS and implementation of Resource Management Algorithm</li></ul><h6 class=\"h6\">2. Situational awareness video transmission USN</h6><ul><li>Development of Linux Device Driver for the Gateway</li><li>Porting Linux Kernal and Making Filesystem Image for Gateway</li><li>Development and Porting of video encoder, decoder, 4-channel codec (MG1264) LDD</li><li>Setting up RTSP server for gateway</li></ul>",
 
-    "Skills" : "Skills"
+    "Edu-Major-2": "Master of Science in Radio Communication Engineering",
+    "Edu-University-2": "from Hanbat National University",
+    "Edu-Period-2": "2006 - 2008",
+    "Edu-Description-2": "Cumulative GPA 4.3 / 4.5<br>Thesis : Low Power Algorithm of ZigBee Router for Non Beacon Enabled PAN",
+
+    "Edu-Major-1": "Bachelor of College of Information and Communication Engineering",
+    "Edu-University-1": "from Hanbat National University",
+    "Edu-Period-1": "2000 - 2006",
+    "Edu-Description-1": "Cumulative GPA 3.86 / 4.5<br>Military leave of absence from University. (Jan 2002 - Feb 2004)"
 }
