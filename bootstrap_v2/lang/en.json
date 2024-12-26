@@ -2,9 +2,31 @@
     "Name": "Sungkun Yoon",
     "Experience": "Experience",
     "Education": "Education",
-    "portfolio": "Portfolio",
+    "Portfolio": "Portfolio",
     "References": "References",
     "Contact": "Contact",
     "About": "About",
+    "Skills": "Skills",
+
+    "Work-Position-4": "Backend Developer",
+    "Work-Period-4": "March, 2020 - August, 2022",
+    "Work-Company-4": "at WebPlaza",
+    "Work-Descrption-4": "<h6 class=\"h6\">1. Smart Factory System Management</h6><ul><li>ACS Server Development</li><li>ACS Maintenance and add feature</li><li>Installed the ACS Server</li></ul>",
+
+    "Work-Position-3": "Backend Developer",
+    "Work-Period-3": "September, 2015 - March, 2019",
+    "Work-Company-3": "at Solu-M",
+    "Work-Descrption-3": "<h6 class=\"h6\">1. Electronic Shelf Label Server</h6><ul><li>ESL Image Server Develop (Based on Java Spring Framework)</li><li>Central ESL Server Develop</li><li>To support ESL Server setup for Customer</li></ul>",
+
+    "Work-Position-2": "Backend Developer",
+    "Work-Company-2": "at Samsung Electro-Mechanics",
+    "Work-Period-2": "April, 2012 - August, 2015",
+    "Work-Descrption-2": "<h6 class=\"h6\">1. Electronic Shelf Label Server</h6><ul><li>Developed ESL 7-Segment Server (Based on C++, Socket)</li><li>ESL Image Server Develop (Based on Java Spring Framework)</li><li>To support ESL Server setup for Customer</li></ul>",
+
+    "Work-Position-1": "Firmware Engineer",
+    "Work-Company-1": "at From2",
+    "Work-Period-1": "October, 2007 - March, 2012",
+    "Work-Descrption-1": "<h6 class=\"h6\">1. Surveillance and Reconnaissance WSN (Military Project)</h6><ul><li>Developed Sensor Node Device Driver(RTC, RF, AMP)</li><li>OS Porting for MCU</li><li>Sensor Data Processing &amp; Sampling</li><li>Developed Stabilization of Application Task in OS and implementation of Resource Management Algorithm</li></ul><h6 class=\"h6\">2. Situational awareness video transmission USN</h6><ul><li>Development of Linux Device Driver for the Gateway</li><li>Porting Linux Kernal and Making Filesystem Image for Gateway</li><li>Development and Porting of video encoder, decoder, 4-channel codec (MG1264) LDD</li><li>Setting up RTSP server for gateway</li></ul>",
+
     "Skills" : "Skills"
 }

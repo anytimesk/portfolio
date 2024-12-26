@@ -6,5 +6,27 @@
     "References": "추천",
     "Contact": "연락",
     "About": "소개",
+    "Skills": "보유 기술",
+    
+    "Work-Position-4": "백엔드 개발자",
+    "Work-Period-4": "2020. 3월 - 2022. 8월",
+    "Work-Company-4": "웹프라자",
+    "Work-Descrption-4": "<h6 class=\"h6\">1. 공장자동화 시스템 관리</h6><ul><li>ACS 서버 개발</li><li>ACS 유지 관리 및 기능 추가</li><li>ACS 서버 설치</li></ul>",
+
+    "Work-Position-3": "백엔드 개발자",
+    "Work-Period-3": "2015. 9월 - 2019. 3월",
+    "Work-Company-3": "솔루엠",
+    "Work-Descrption-3": "<h6 class=\"h6\">1. 전자 가격표시기 서버</h6><ul><li>ESL 이미지 서버 개발(Java Spring Framework 기반)</li><li>중앙형 ESL 서버 개발</li><li>고객사 ESL 서버 설치 지원</li></ul>",
+    
+    "Work-Position-2": "백엔드 개발자",
+    "Work-Company-2": "삼성전기",
+    "Work-Period-2": "2012. 4월 - 2015. 8월",
+    "Work-Descrption-2": "<h6 class=\"h6\">1. 전자 가격표시기 서버</h6><ul><li>ESL 7-Segment 서버 개발(C++, 소켓 기반)</li><li>ESL 이미지 서버 개발(Java Spring Framework 기반)</li><li>고객사 ESL 서버 설치 지원</li></ul>",
+
+    "Work-Position-1": "펌웨어 엔지니어",
+    "Work-Company-1": "프롬투정보통신",
+    "Work-Period-1": "2007. 10월 - 2012. 3월",
+    "Work-Descrption-1": "<h6 class=\"h6\">1. 감시 정찰 센서네트워크 (국방과제)</h6><ul><li>센서노드 디바이스 드라이버 개발(RTC, RF, AMP)</li><li>MCU용 OS 포팅</li><li>센서 데이터 처리 및 샘플링</li><li>OS 내 Task 최적화 및 자원관리 알고리즘 구현</li></ul><h6 class=\"h6\">2. 상황인지 영상전송 USN 게이트웨이</h6><ul><li>Gateway용 리눅스 디바이스 드라이버(LDD) 개발</li><li>리눅스 커널 포팅 및 게이트웨이용 파일 시스템 이미지 제작</li><li>영상 인코더, 디코더, 4채널 코덱(MG1264) LDD 개발 및 포팅</li><li>게이트웨이용 RTSP 서버 설정</li></ul>",
+
     "Skills" : "보유 기술"
 }
