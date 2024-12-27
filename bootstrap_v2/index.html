@@ -72,7 +72,7 @@
             <div class="header-bio mt-3">
               <div data-aos="zoom-in" data-aos-delay="0">
                 <h2 class="h1" data-key="Name">Sungkun Yoon</h2>
-                <p>Front-end Developer and Graphic Designer</p>
+                <p data-key="Intro-Position">Backend Developer</p>
               </div>
               <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
                 <nav role="navigation">
@@ -99,42 +99,35 @@
     <div class="about-section">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="h2 fw-light mb-4">About Me</h2>
-          <p>Hello! I’m Walter Patterson. I am passionate about UI/UX design and Web Design. I am a skilled <strong>front-end developer</strong> and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done.</p>
-          <p>I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
+          <h2 class="h2 fw-light mb-4" data-key="AboutMe">About Me</h2>
+          <div data-key="Interduce"></div>
         </div>
         <div class="col-md-5 offset-lg-1">
           <div class="row mt-2">
             <h2 class="h2 fw-light mb-4">Bio</h2>
             <div class="col-sm-5">
-              <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Age</div>
+              <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> <span data-key="Age">Age</span></div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">28</div>
+              <div class="pb-2" id="age">43</div>
             </div>
             <div class="col-sm-5">
-              <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
+              <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> <span data-key="Email">Email</span></div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">walter@company.com</div>
+              <div class="pb-2">sk4u.yoon@gmail.com</div>
             </div>
             <div class="col-sm-5">
-              <div class="pb-2 fw-bolder"><i class="fab fa-skype pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Skype</div>
+              <div class="pb-2 fw-bolder"><i class="fas fa-mobile pe-2 text-muted" style="width:24px;opacity:0.85;"></i> <span data-key="Phone">Phone</span></div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">username@skype.com</div>
+              <div class="pb-2" data-key="PhoneNum">+82(0)10-7372-7851</div>
             </div>
             <div class="col-sm-5">
-              <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
+              <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> <span data-key="Address">Address</span></div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">+0718-111-0011</div>
-            </div>
-            <div class="col-sm-5">
-              <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Address</div>
-            </div>
-            <div class="col-sm-7">
-              <div class="pb-2">131 W, City Center, New York, U.S.A</div>
+              <div class="pb-2" data-key="AddressVal">Suji-gu, Yongin-si, Gyeonggi-do, Republic of Korea</div>
             </div>
           </div>
         </div>
@@ -438,6 +431,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
       $(document).ready(function() {
+        $("#age").text(calAge('1981-06-29'));
         updateLanguage($("#lang").val());
       });
 
@@ -455,6 +449,19 @@
         }).fail(function() {
           console.error("Failed to load language file.");
         });
+      }
+
+      function calAge(birthStr) {
+        const today = new Date();
+        const birthDate = new Date(birthStr);
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const monthDiff = today.getMonth() - birthDate.getMonth();
+        // 월 차이가 음수이거나, 월이 같아도 일이 지나지 않은 경우 나이에서 1 빼기
+        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+
+        return age;
       }
     </script>
   </body>
