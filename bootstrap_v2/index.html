@@ -23,6 +23,25 @@
         }
       </style>
     </noscript>
+    <style>
+    #backToTopBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 220px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: #555; /* Set a background color */
+      color: white; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+    }
+    #backToTopBtn:hover {
+      background-color: #333; /* Add a dark-grey background on hover */
+    }
+    </style>
   </head>
   <body class="bg-light" id="top">
     <header class="d-print-none">
@@ -62,6 +81,8 @@
     </header>
     <div class="page-content">
       <div class="container">
+      <!-- Back to Top Button -->
+      <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">Top</button>
 <div class="resume-container">
   <div class="shadow-1-strong bg-white my-5" id="intro">
     <div class="bg-info text-white">
@@ -430,6 +451,10 @@
     <script src="scripts/main.js?ver=1.2.1"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+      let mybutton = document.getElementById("backToTopBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
       $(document).ready(function() {
         $("#age").text(calAge('1981-06-29'));
         updateLanguage($("#lang").val());
@@ -462,6 +487,19 @@
         }
 
         return age;
+      }
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
       }
     </script>
   </body>
