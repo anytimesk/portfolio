@@ -11,13 +11,14 @@
 
     "AboutMe":"자기 소개",
     "Interduce": "<p>&nbsp;&nbsp;저는 Java와 Spring Framework에 전문성을 가진 <b>백엔드 개발자</b>로, 안정적이고 확장 가능한 서버 애플리케이션 개발에 강점을 가지고 있습니다. RESTful API 설계, 데이터베이스 관리, 성능 최적화와 같은 백엔드 핵심 작업을 수행하며, 최신 기술 트렌드를 학습하고 적용하는 데 열정을 가지고 있습니다.</p><p>&nbsp;&nbsp;높은 품질의 코드와 효율적인 협업을 통해 문제를 해결하고 가치 있는 결과를 만드는 것을 목표로 합니다.</p>",
+    "PersonalDetail":"개인 정보",
 
     "Age": "나이",
     "Email": "이메일",
     "Phone": "전화",
     "Address": "주소",
 
-    "PhoneNum": "010-7372-7851",
+    "PhoneNum": "010-****-7851",
     "AddressVal": "경기도 용인시 수지구",
 
     "ProSkill": "보유 기술",
@@ -52,8 +53,11 @@
     "Edu-Period-1": "2000 - 2006",
     "Edu-Description-1": "학점 3.86 / 4.5",
 
+    "Portfolio-Title-3": "공장자동화 시스템 관리",
+    "Portfolio-Description-3": "",
+
     "Portfolio-Title-2":"전자 가격 표시기 서버",
-    "Portfolio-Description-2": "고객사의 상품 정보를 입력 받아 전자 가격 표시기(ESL)에 사용할 이미지를 생성하는 서버를 Spring Framework와 MSSQL을 기반으로 개발했습니다. 또한, 상품 데이터를 ESL 시스템에서 처리할 수 있도록 가공하고, 이미지를 생성하는 Web UI Tool도 함께 개발하였습니다.",
+    "Portfolio-Description-2": "Spring Framework와 MSSQL을 기반으로 전자 가격 표시기(ESL) 서버를 개발했습니다. 고객의 매일 업데이트된 제품 정보와 디자인된 레이아웃을 기반으로 이미지를 생성하는 기능을 개발했습니다. 또한 ESL Tag에 표시할 이미지 레이아웃을 디자인하기 위한 웹 UI를 구현했습니다.",
 
     "Portfolio-Title-1":"감시 정찰 센서 네트워크",
     "Portfolio-Description-1": "침입자를 감시하는 센서 노드를 개발했습니다. 센서 제어를 위한 Firmware를 개발하고, MCU에 탑재되는 Micro OS를 노드에 포팅하였습니다. 센서 데이터를 분석하고 테스트하는 MFC 프로그램을 개발하여 센서 노드 검증 및 디지털 신호 처리를 통한 탐색 알고리즘 개발을 수행하였습니다."
