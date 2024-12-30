@@ -103,7 +103,7 @@
                   </ul>
                 </nav>
               </div>
-              <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="material-resume.pdf" data-aos="fade-right" data-aos-delay="700">Download CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">Hire Me</a></div>
+              <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="resume/SungkunYoon_EN.pdf" download target='_blank' data-aos="fade-right" data-aos-delay="700" id="downloadCV" data-key="DownloadCV">Download CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">Hire Me</a></div>
             </div>
           </div>
         </div>
@@ -407,11 +407,15 @@
 
       $(document).ready(function() {
         $("#age").text(calAge('1981-06-29'));
-        updateLanguage($("#lang").val());
+        var lang = $("#lang").val();
+        updateLanguage(lang);
+        updateCVLink(lang);
       });
 
       $("#lang").change(function(){
-        updateLanguage($(this).val());
+        var lang = $(this).val();
+        updateLanguage(lang);
+        updateCVLink(lang);
       })
 
       function updateLanguage(lang){
@@ -424,6 +428,11 @@
         }).fail(function() {
           console.error("Failed to load language file.");
         });
+      }
+
+      function updateCVLink(lang) {
+        var cvLink = "resume/SungkunYoon_" + lang.toUpperCase() + ".pdf";
+        $("#downloadCV").attr("href", cvLink);
       }
 
       function calAge(birthStr) {
