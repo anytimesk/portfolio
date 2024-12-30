@@ -50,5 +50,8 @@
     "Edu-Major-1": "Bachelor of College of Information and Communication Engineering",
     "Edu-University-1": "from Hanbat National University",
     "Edu-Period-1": "2000 - 2006",
-    "Edu-Description-1": "Cumulative GPA 3.86 / 4.5<br>Military leave of absence from University. (Jan 2002 - Feb 2004)"
+    "Edu-Description-1": "Cumulative GPA 3.86 / 4.5<br>Military leave of absence from University. (Jan 2002 - Feb 2004)",
+
+    "Portfolio-Title-1":"Surveillance and Reconnaissance WSN",
+    "Portfolio-Description-1": "&nbsp;&nbsp;I developed a sensor node for monitoring intruders. I created firmware for sensor control and ported the Micro OS embedded in the MCU to the node. By developing an MFC program that tests sensor data, I conducted sensor node verification and developed exploration algorithms through digital signal processing."
 }
