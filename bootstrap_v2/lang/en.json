@@ -55,7 +55,7 @@
     "Edu-Description-1": "Cumulative GPA 3.86 / 4.5<br>Military leave of absence from University. (Jan 2002 - Feb 2004)",
 
     "Portfolio-Title-3": "Smart Factory System Management",
-    "Portfolio-Description-3": "",
+    "Portfolio-Description-3": "As the leader of ACS development, I developed the ACS system that designs and controls the AGV routes in the production line. I carried out the integration work between ACS and the client's MCS, and was responsible for configuring high availability (HA) and performing operational maintenance.",
 
     "Portfolio-Title-2":"ESL Server",
     "Portfolio-Description-2":"An electronic shelf label (ESL) server was developed based on the Spring Framework and MSSQL. A feature was developed to generate images based on daily updated product information from customers and the designed layouts. Additionally, a web UI was implemented for designing image layouts to be displayed on ESL tags.",

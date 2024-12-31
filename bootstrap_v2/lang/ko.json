@@ -55,7 +55,7 @@
     "Edu-Description-1": "학점 3.86 / 4.5",
 
     "Portfolio-Title-3": "공장자동화 시스템 관리",
-    "Portfolio-Description-3": "",
+    "Portfolio-Description-3": "ACS 개발 리더로서, 생산 라인에서 AGV의 이동 경로를 설계하고 제어하는 ACS 시스템을 개발하였습니다. ACS와 고객사의 MCS 연동 작업을 수행하였으며, 고가용성(HA) 구성 및 운영 유지보수 작업을 담당하였습니다.",
 
     "Portfolio-Title-2":"전자 가격 표시기 서버",
     "Portfolio-Description-2": "Spring Framework와 MSSQL을 기반으로 전자 가격 표시기(ESL) 서버를 개발했습니다. 고객의 매일 업데이트된 제품 정보와 디자인된 레이아웃을 기반으로 이미지를 생성하는 기능을 개발했습니다. 또한 ESL Tag에 표시할 이미지 레이아웃을 디자인하기 위한 웹 UI를 구현했습니다.",
