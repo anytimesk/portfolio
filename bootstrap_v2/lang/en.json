@@ -3,6 +3,7 @@
     "Experience": "Experience",
     "Education": "Education",
     "Portfolio": "Portfolio",
+    "License": "License",
     "Contact": "Contact",
     "About": "About",
     "Skills": "Skills",
@@ -62,6 +63,14 @@
 
     "Portfolio-Title-1":"Surveillance and Reconnaissance WSN",
     "Portfolio-Description-1": "I developed a sensor node for monitoring intruders. I created firmware for sensor control and ported the Micro OS embedded in the MCU to the node. By developing an MFC program that tests sensor data, I conducted sensor node verification and developed exploration algorithms through digital signal processing.",
+
+    "License-Name-1": "Engineer Information Processing",
+    "License-Date-1": "2005. 06. 13.",
+    "License-Organization-1": "Korea Information Processing Society",
+
+    "License-Name-2": "Computerized accounting qualification 1st grade",
+    "License-Date-2": "2023. 10. 26.",
+    "License-Organization-2": "Korean Association of Certified Public Tax Accountants",
 
     "SubmittMail" : "Submit",
     "MailToNotice" : "Submitting this form will send an email through your email client."
